@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+<html lang="en">
+  <head>
+    <!-- Bootstrap CSS -->
+      {% block title %}Success{% endblock %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="static/styles.css">
+    <title>Home</title>
+  </head>
+  <body>
+  {% block content %}
+  <div class="jumbotron text-center " style="background-image: url('static/img/travel_to_norway_s_lofoten_islands-wallpaper-2400x1350.jpg');"><br><br><br><br><br><br>
+  <h1 class="display-4" style="color:#F2CD5C;">Welcome to My Portfolio</h1><br><br>
+
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p><br><br><br><br><br><br><br>
+    <a class="button-30"  style="color: black; text-decoration: none;" role="button" href="{{ url_for('projects') }}">PROJECTS</a><br><br>
+    <a class="button-30"  style="background-color:#8BF5FA;color: black; text-decoration: none;padding-left:82px;padding-right:82px;" role="button" href="{{ url_for('skills') }}">SKİLLS</a><br><br><br><br><br><br><br><br>
+  </div>
+  {% endblock %}
+  </body>
+</html>

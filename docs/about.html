@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <h2 class="text-center">About Me</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='img/profile.jpg') }}" class="img-fluid mb-3" alt="Profile Picture">
+    </div>
+    <div class="col-md-6">
+      <h3>My Skills</h3>
+      <ul>
+        <li>Python</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Flask</li>
+        <li>Bootstrap</li>
+      </ul>
+      <h3>My Story</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+    </div>
+  </div>
+  <div class="text-center my-5">
+    <h3>See My Work in Action</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+{% endblock %}

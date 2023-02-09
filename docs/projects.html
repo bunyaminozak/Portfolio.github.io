@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+<html lang="en">
+  <head>
+      {% block title %}Success{% endblock %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link rel="stylesheet" href="static/styles.css">
+    <title>Projects</title>
+  </head>
+  <body>
+    {% block content %}
+  <div class="jumbotron text-center " style="background-image: url('static/img/beauclair___the_capital_city_of_the_duchy_of_toussaint_16k-wallpaper-2400x1350.jpg');"><br><br>
+  <h1 class="display-4 " style="color:black;">Here is my Projects</h1><br><br>
+      <div class="container my-5">
+  <p class="text-center" style="color:black;">A list of my recent projects.</p>
+  <div class="row">
+    <div class="col-md-4 " style="heigth:15px;">
+      <a href="https://github.com/buniozak/cv">
+      <div class="card">
+        <img class="card-img-top" src='static/img/project1.png'  alt="Project 1">
+        </a>
+        <div class="card-body text-center" style="background-color:#88A47C">
+          <h5 class="card-title" style="color:black;">CV Project </h5>
+          <p class="card-text" style="color:black;">Some quick example text to build on the card title and make up the bulk of the cardscontent.</p>
+          <a class="button-30"  style="color: white;background-color:#698269; text-decoration: none;weight:30px;height:50px;padding-left:10px;padding-right:10px" role="button" href="https://github.com/buniozak/cv">Go to  files on git</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4 ">
+      <a href="https://github.com/buniozak/blog-sec">
+      <div class="card">
+
+        <img class="card-img-top" src='static/img/project2.png' alt="Project 2">
+         </a>
+        <div class="card-body text-center" style="background-color:#227C70">
+          <h5 class="card-title" style="color:black;">Blog - Sec Project </h5>
+          <p class="card-text" style="color:black;">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+
+          <a class="button-30"  style="color: white;background-color:#579BB1; text-decoration: none;weight:30px;height:50px;padding-left:10px;padding-right:10px" role="button" href="https://github.com/buniozak/blog-sec">Go to  files on git</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4" style="color:black;">
+      <a href="https://github.com/buniozak/blog-sec">
+      <div class="card">
+        <img class="card-img-top" src='static/img/project3.png' alt="Project 3">
+         </a>
+        <div class="card-body text-center" style="background-color:#E6E2C3">
+          <h5 class="card-title" style="color:black;">Bunyamin-Blog</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+           <a class="button-30"  style="color: white;background-color:#B99B6B; text-decoration: none;weight:30px;height:50px;padding-left:10px;padding-right:10px" role="button" href="https://github.com/buniozak/Bunyamin-Blog">Go to  files on git</a>
+        </div>
+      </div>
+  <hr class="my-4">
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+    {% endblock %}
+  </body>
+</html>

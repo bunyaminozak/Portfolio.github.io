@@ -1,0 +1,201 @@
+.btn-custom{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover {
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.63);
+  transform: translateY(-15px);
+
+}
+footer {
+  margin-top: -25px; /* Decrease the top margin of the footer */
+ /* Increase the top padding of the footer */
+}
+.navbar {
+    background-color: transparent; /* Set the background color to transparent */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Place the navbar at the top of the page */
+    width: 100%; /* Make the navbar full width */
+    padding: 10px 0; /* Add some padding to the navbar */
+    z-index: 100; /* Make sure the navbar is on top of other elements */
+    color:white;
+  }
+
+  .navbar-brand {
+    color:white; /* Set the text color to white */
+  }
+
+  .navbar-nav{
+    justify-content: flex-end; /* Align the navigation items to the right */
+  }
+.navbar navbar-expand-lg{
+color:white;
+}
+
+.header-image {
+  width: 100%;
+  height: 1000px;
+   background-image: url("https://w.wallhaven.cc/full/96/wallhaven-96w8e8.png");
+  object-fit: cover; /* Add this line to remove the white space */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h5{
+color:white
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+  }
+}
+
+.card{
+transition: all 0.3s ease-in-out;
+}
+.card:hover{
+ box-shadow: 0 0 10px rgba(100, 100, 100, 0.63);
+  transform: translateY(-15px);
+}
+
+
+.btn-custom{
+  border: none;
+  margin-bottom: 200px;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+ overflow:hidden;
+ border-radius:30px;
+ min-height:500px;
+   box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+
+ @media (max-width: 768px) {
+  min-height:350px;
+}
+
+@media (max-width: 420px) {
+  min-height:100px;
+}
+
+.card{
+transition: all 0.3s ease-in-out;
+  background-size:120%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);}
+
+  &:hover {
+    transform: scale(0.98);
+     box-shadow: 0 0 5px -2px rgba(0,0,0,0.3);
+    background-size:130%;
+     transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+
+    .card-img-overlay {
+      transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+      background: rgb(35,79,109);
+     background: linear-gradient(0deg, rgba(4,69,114,0.5) 0%, rgba(4,69,114,1) 100%);
+     }
+  }
+}
+.card{
+  background: none;
+   border-top: none;
+    .media{
+     img{
+       border:solid 3px rgba(255,255,255,0.3);
+     }
+   }
+ }
+.card{color:#26BD75}
+ .card-body{
+   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+ &:hover {
+   .card-body{
+     margin-top:30px;
+     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+   }
+ cursor: pointer;
+ transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+ .card-img-overlay {
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+ background: rgb(35,79,109);
+background: linear-gradient(0deg, rgba(35,79,109,0.3785889355742297) 0%, rgba(69,95,113,1) 100%);
+}
+}
+@media (max-width: 200px){
+
+}
+.wrapper{margin:50vh}
+
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.7) 0 2px 4px,rgba(45, 35, 66, 0.6) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 100px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 70px;
+  padding-right: 70px;
+  position: relative;
+  text-align: left;
+
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 22px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.6) 0 4px 8px, rgba(45, 35, 66, 0.6) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-5px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(5px);
+}
